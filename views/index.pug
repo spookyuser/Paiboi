@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	div.tc
+		h1.f-headline-l.f1 Paiboi watches
+	div#ytform.tc.mb0.pb5-l
+		form#videoUrlForm
+			input#videoUrl.is-autocheck-successful.center.f2.h3.input-contrast.form-control.input-block.input-lg.mw8-ns.mw5(type='text', placeholder='Paste a YouTube link', name='videoUrl')
+	div#videoPlayer.relative.center.mt5.mw8
+		div#placeholder.absolute.w-100(style='bottom:1%')
+			div#demo.w-100.z-0(style='border-radius: 4px;' data-type='youtube' data-video-id='5uXsCaakZD8' playsinline defaultMuted muted)
+		video#overlay.relative.w-50.draggable(style='touch-action: none' disableRemotePlayback defaultMuted muted playsinline loop autoplay src='videos/overlay.webm')
+	h3#error.dn
+	div.center.tc
+			button#makeButton.mv5.btn.btn-large.btn-primary Make
+	div#postrender.tc.dn.mv5
+		div.tc.BtnGroup.center
+			a#downloadFileButton.btn.BtnGroup-item(download='Paiboi.mp4') Download
+			button#gfycat.btn.BtnGroup-item.btn-blurple Gfycat
+		div.tc.center
+			div#progressbar.center
+			input#shareUrl.form-control.input-lg.w5.dn.center
+	div#restart.tc.dn.mv5
+		button#restartButton.btn.btn-danger
+	div#bodymovin.w-30-l.tc.center

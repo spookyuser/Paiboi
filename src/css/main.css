@@ -1,0 +1,8 @@
+/* Base Styles (TACHYONS) */
+@import '_tachyons.css';
+
+/* Plyr styles */
+@import 'plyr/dist/plyr';
+
+/* Progressbar Styles */
+@import '_bar'

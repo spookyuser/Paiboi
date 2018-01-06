@@ -1,0 +1,9 @@
+/*
+
+  Gfycat button from Primer
+
+
+ */
+.btn-blurple {
+    @include btn-solid($white, mix($blue-400, $purple-400, 35%), mix($blue-600, $purple-600, 35%));
+}
