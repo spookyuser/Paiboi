@@ -51,7 +51,7 @@
     "uuid": "^3.1.0",
     "webpack": "^3.10.0",
     "whatwg-fetch": "^2.0.3",
-    "ytdl-core": "^0.18.4"
+    "ytdl-core": "^0.18.7"
   },
   "engines": {
     "node": "8.5.0"
